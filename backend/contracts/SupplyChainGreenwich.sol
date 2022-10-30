@@ -33,7 +33,7 @@ contract SupplyChainGreenwich {
 
         //Random Tesco orders
         orders[companies["Tesco"]].push(Order(block.timestamp, "500L Milk", 7500, "In transit"));
-        orders[companies["Tesco"]].push(Order(block.timestamp, "127x Bread", 10250, "Delivered"));
+        orders[companies["Tesco"]].push(Order(block.timestamp, "127 loaves Bread", 10250, "Delivered"));
         orders[companies["Tesco"]].push(Order(block.timestamp, "4250 Eggs", 2500, "Delivered"));
         orders[companies["Tesco"]].push(Order(block.timestamp, "5kg Butter", 1250, "In transit"));       
 
